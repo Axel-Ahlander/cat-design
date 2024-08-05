@@ -1,0 +1,108 @@
+.cat-head {
+    width: 205px;
+    height: 180px;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 46%;
+    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.left-ear {
+    position: absolute;
+    border-bottom: 70px solid #5e5e5e;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    top: -26px;
+    left: -31px;
+    transform: rotate(-45deg);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+
+.right-ear {
+    position: absolute;
+    border-bottom: 70px solid #5e5e5e;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    top: -26px;
+    left: 163px;
+    transform: rotate(45deg);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+
+
+.left-inner{
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+}
+
+.right-inner{
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+}
+
+.left-eye {
+    border: 20px solid white;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    border-radius: 75px;
+    
+}
+
+.right-eye {
+    border: 20px solid white;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    border-radius: 75px;
+    
+}
+
+.right-eyeball {
+    border: 17px solid rgb(40, 164, 226);
+    position: absolute;
+    top: -14px;
+    left: -15px;
+    border-radius: 75px;
+}
+
+.left-eyeball {
+    border: 17px solid rgb(40, 164, 226);
+    position: absolute;
+    top: -14px;
+    left: -15px;
+    border-radius: 75px;
+}
